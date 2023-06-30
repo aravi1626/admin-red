@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container img {
+    align-self: flex-end;
+    margin: 20px;
+    width: 100px;
+    height: fit-content;
+}
+
+.description {  
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
